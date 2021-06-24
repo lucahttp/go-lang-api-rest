@@ -1,0 +1,96 @@
+{
+	"info": {
+		"_postman_id": "0c80f011-f39d-46ca-a88a-8a4880263a69",
+		"name": "Example",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "POST",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"age\": 22,\r\n        \"email\": \"juan.perez@gmail.com\",\r\n        \"firstname\": \"Juan\",\r\n        \"lastname\": \"Perez\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8000/person",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"person"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET ALL",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8000/person",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"person"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET ID",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8000/person",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"person"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
